@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: rgb(200, 200, 200);
+}
+
+.navbar span{
+    color: rgb(1, 50, 75);
+}
+
+.nav-link{
+    color: rgb(180, 25, 250) !important;
+}    
+.nav-link:hover{
+    color: rgb(1, 50, 75) !important;
+    font-weight: bold;
+}
+.navbar-toggler{
+    border: none;
+}
+
+.fa-bars-staggered{
+    color: rgb(180, 25, 250);
+}
+
+.jumbotron{
+    padding: 220px 0 0 0;
+    background-image: url(/media/jumbotron.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;   
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.jumbotron h1{
+    font-size: 40px;
+}
+.jumbotron .container{
+    padding-right: 350px;
+}
+
+h2{
+    text-align: center;
+    background-color: rgb(200, 200, 200);
+    color: rgb(180, 25, 250);
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.container-fluid{
+    height: 300px;
+}
+.container-fluid .row{
+    height: 300px;
+}
+
+.empresa .nleft{
+    background-image: url(/media/nosotros.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.empresa .nright h3{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.simulador .nright{
+    background-image: url(/media/technology-g5c63af47e_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.simulador .nleft h3{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+footer{
+    height: 250px;
+    background-color: rgb(200, 200, 200);
+    color: rgb(180, 25, 250);
+    padding: 10px 20px 10px;    
+}
+footer li {
+    margin: 0px 10px 0px;
+    padding: 15px;
+}
+.info_contacto ul{
+    list-style: none;
+}
+
+.redes {
+    height: 150px;
+    width: 50px;
+    font-size: 45px;
+    position: fixed;
+    left: 5px;
+    top: 30%;
+    display: block;
+}
+.redes a {
+    color: rgb(80, 10, 100);
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+.redes i {
+    transition: 1.1s;
+}
+.redes i:hover {
+    transform: rotate(360deg);
+    transition: 1.1s;
+}
+
+#redes_novedades a {
+    color: hsl(0, 0%, 97%);
+    text-shadow: 0 0 10px rgb(6, 40, 61);
+}

@@ -10,9 +10,9 @@ class Prestamo{
     asignarFecha(){ 
         let hoy = new Date();
         return hoy.toLocaleDateString();
-    }1
+    }
     mostrarAlta() {
-        return `Datos del préstamo solicitado por la agencia ${this.agencia} al día: ${this.fecha1}
+        return `Datos del préstamo solicitado por la agencia ${this.agencia} al día: ${this.fecha}
         Capital requerido: ${this.capital}
         Plazo: ${this.plazo} cuotas
         TNA: ${this.tasa} %`;
@@ -45,7 +45,7 @@ function administrarPrestamos() {
     let prestamo = "";
     let registroPrestamos = [/*{capital: 1000, plazo: 12, tasa: 10, agencia: "Primero S.A.", fecha: "1/8/2022"},
                                 {capital: 2000, plazo: 24, tasa: 20, agencia: "Segundo S.A.", fecha: "6/12/2021"},
-                                {capital: 3000000, plazo: 12, tasa: 86.45, agencia: "Tercero S.A.", fecha: "12/7/2023"}*/];
+{capital: 3000000, plazo: 12, tasa: 86.45, agencia: "Tercero S.A.", fecha: "12/7/2023"}*/];
     do{
         opcion = prompt(`Seleccione una opción:
         1. Agregar nuevo préstamo.
@@ -124,4 +124,4 @@ function administrarPrestamos() {
     }while(opcion !== "99")
 }
 
-administrarPrestamos();
+// administrarPrestamos();
