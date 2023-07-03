@@ -124,4 +124,4 @@ function administrarPrestamos() {
     }while(opcion !== "99")
 }
 
-// administrarPrestamos();
+administrarPrestamos();
