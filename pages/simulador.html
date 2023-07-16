@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <title>Proyecto Simulador Préstamos</title>
 </head>
 <body>
@@ -25,54 +25,40 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="../index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#empresa">Empresa</a>
+                    <a class="nav-link" href="../index.html#empresa">Empresa</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#simulador">Simulador</a>
+                    <a class="nav-link" href="#">Simulador</a>
                 </li>
             </ul>
         </div>
     </nav>
     <!-- navbar fin -->
-    <!-- jumbotron inicio -->
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">Fluid jumbotron</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-            <a href="./pages/simulador.html" id="btn-simulador" class="btn btn-warning">Quiero un préstamo</a>
-        </div>
-    </div>
-    <!-- jumbotron fin -->
-    <!-- nosotros inicio -->
-    <h2 id="empresa">Empresa</h2>
-    <div class="container-fluid empresa">
-        <div class="row">
-            <aside class="col-md-6 nleft"></aside>
-            <aside class="col-md-6 nright">
-                <h3>quienes somos</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit eius temporibus facere dolor tempore voluptas magni aliquid consequuntur ipsam porro commodi id hic odio rem, quos, illo officiis magnam nesciunt.</p>
-                <button type="button" class="btn btn-warning">Más info</button>
-            </aside>
-        </div>
-    </div>
-    <!-- nosotros fin -->
-    <!-- simulador inicio -->
-    <h2 id="simulador">Simulador</h2>
-    <div class="container-fluid simulador">
-        <div class="row">
-            <aside class="col-md-6 nleft">
-                <h3>entrega inmediata</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit eius temporibus facere dolor tempore voluptas magni aliquid consequuntur ipsam porro commodi id hic odio rem, quos, illo officiis magnam nesciunt.</p>
-                <a href="./pages/simulador.html" id="btn-simulador" class="btn btn-warning">Sacalo ya!</a>
-            </aside>
-            <aside class="col-md-6 nright"></aside>
-        </div>
-    </div>
     
-    <!-- simulador fin -->
+    <section>
+        <h1>Simulador de Préstamos</h1>
+        <h3>Completá el monto que necesitás y en cuántas cuotas lo querés pagar:</h3>
+        <form class="form" id="formulario">
+            
+            <label for="capital">Capital</label>
+            <input type="text" name="capital" id="capital">
+            
+            <label for="plazo">Plazo</label>
+            <input type="number" name="plazo" id="plazo">
+
+            <button id="btn-crear-prestamo" class="btn btn-warning">Simular Préstamo</button>
+
+        </form>
+        <div class="contenedor">
+            <div class="detalle"></div>
+            <div class="resumen"></div>
+            <form class="form" id="datosCliente"></form>
+        </div>
+    </section>
+
     <footer>
         <div class="info_contacto">
             <ul>
@@ -103,6 +89,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
-    <script src="./js/main.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>

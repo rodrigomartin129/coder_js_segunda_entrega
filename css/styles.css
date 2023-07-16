@@ -6,6 +6,7 @@
 
 .navbar{
     background-color: rgb(200, 200, 200);
+    font-size: 18px;
 }
 
 .navbar span{
@@ -61,32 +62,88 @@ h2{
 .empresa .nleft{
     background-image: url(/media/nosotros.jpeg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
+}
+
+.empresa .nright{
+    padding: 10px 40px;
 }
 
 .empresa .nright h3{
     text-align: center;
     text-transform: uppercase;
-    padding: 20px;
+    padding: 10px;
 }
 
 .simulador .nright{
     background-image: url(/media/technology-g5c63af47e_1920.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
-
+.simulador .nleft{
+    padding: 10px 40px;
+}
 .simulador .nleft h3{
     text-align: center;
     text-transform: uppercase;
-    padding: 20px;
+    padding: 10px;
+}
+
+section{
+    height: 100%;
+    background-color: rgb(235, 235, 235);
+}
+form{
+    padding: 10px 0px;
+}
+label{
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+input{
+    font-size: 20px;
+    padding: 5px;
+    font-style: italic;
+}
+.btn{
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 10px;
+}
+.tabla{
+    border: solid 1px black;
+    margin: 30px 100px ;
+    padding: 10px;
+}
+.cuota{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+.cuota h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.cuota h4{
+    font-size: 18px;
+}
+.resumen h3{
+    font-size: 20px;
+    padding: 5px 20px;
+    text-align: center;
+}
+#sueldoMinimo{
+    font-size: 22px;
+    font-weight: bold;
 }
 
 footer{
     height: 250px;
     background-color: rgb(200, 200, 200);
     color: rgb(180, 25, 250);
-    padding: 10px 20px 10px;    
+    padding: 10px 20px 10px;  
+    font-size: 18px;  
 }
 footer li {
     margin: 0px 10px 0px;
@@ -98,10 +155,10 @@ footer li {
 
 .redes {
     height: 150px;
-    width: 50px;
-    font-size: 45px;
+    width: 35px;
+    font-size: 35px;
     position: fixed;
-    left: 5px;
+    right: 4px;
     top: 30%;
     display: block;
 }
