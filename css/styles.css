@@ -10,7 +10,12 @@
 }
 
 .navbar span{
-    color: rgb(1, 50, 75);
+    color: rgb(113, 0, 174);
+}
+
+.navbar-brand{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
 }
 
 .nav-link{
@@ -30,7 +35,7 @@
 
 .jumbotron{
     padding: 220px 0 0 0;
-    background-image: url(/media/jumbotron.jpg);
+    background-image: url(/media/portada.png);
     background-size: cover;
     background-position: center;
     height: 600px;   
@@ -38,10 +43,10 @@
     margin-bottom: 0;
 }
 .jumbotron h1{
-    font-size: 40px;
+    font-weight: bold;
 }
 .jumbotron .container{
-    padding-right: 350px;
+    padding-right: 45%;
 }
 
 h2{
@@ -60,7 +65,7 @@ h2{
 }
 
 .empresa .nleft{
-    background-image: url(/media/nosotros.jpeg);
+    background-image: url(/media/nosotros.png);
     background-size: cover;
     background-position: top;
 }
@@ -75,8 +80,25 @@ h2{
     padding: 10px;
 }
 
+.ampliar_quienes_somos {
+    background-image: radial-gradient(rgba(255, 237, 252, 0.76), rgba(255, 160, 250, 0.655));
+}
+.contenedor {
+    padding: 4%;
+}
+
+.contenedor h3{
+    font-weight: 700;
+    font-size: 26px;
+    padding-bottom: 30px;
+}
+
+.contenedor h4{
+    font-size: 20px;
+}
+
 .simulador .nright{
-    background-image: url(/media/technology-g5c63af47e_1920.jpg);
+    background-image: url(/media/darse_la_mano.png);
     background-size: cover;
     background-position: top;
 }
@@ -113,12 +135,12 @@ input{
 }
 .tabla{
     border: solid 1px black;
-    margin: 30px 100px ;
+    margin: 30px 30px ;
     padding: 10px;
 }
 .cuota{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     text-align: center;
 }
 .cuota h3{
