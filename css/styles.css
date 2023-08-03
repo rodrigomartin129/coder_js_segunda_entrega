@@ -35,7 +35,7 @@
 
 .jumbotron{
     padding: 220px 0 0 0;
-    background-image: url(/media/portada.png);
+    background-image: url(./media/portada.png);
     background-size: cover;
     background-position: center;
     height: 600px;   
@@ -65,7 +65,7 @@ h2{
 }
 
 .empresa .nleft{
-    background-image: url(/media/nosotros.png);
+    background-image: url(./media/nosotros.png);
     background-size: cover;
     background-position: top;
 }
@@ -98,7 +98,7 @@ h2{
 }
 
 .simulador .nright{
-    background-image: url(/media/darse_la_mano.png);
+    background-image: url(./media/darse_la_mano.png);
     background-size: cover;
     background-position: top;
 }
