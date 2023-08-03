@@ -91,7 +91,7 @@ function crearNvoPrestamo (e) {
             plazo: plazoNvoPrestamo, 
             tasa: tasaNvoPrestamo,
         };
-        fetch("../json/capital-tasa.json")
+        fetch("./json/capital-tasa.json")
         .then((respuesta) => respuesta.json())
         .then((tasas) => {             
             // Ordeno y luego recorro el arreglo para determinar la tasa en función al monto solicitado.
